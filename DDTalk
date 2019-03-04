@@ -1,0 +1,3 @@
+curl 'https://oapi.dingtalk.com/robot/send?access_token=40ca5202d7d5af4f0c4154f66e12cb66ef9938671e6dc07c0b8a9326e96051df' \  
+-H 'Content-Type: application/json' \  
+-d '  {"msgtype": "text",   "text": {   "content": "该报业绩了大家！！！"  }  }' 
