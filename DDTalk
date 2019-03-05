@@ -1,9 +1,0 @@
-DingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/robot/send?access_token=40ca5202d7d5af4f0c4154f66e12cb66ef9938671e6dc07c0b8a9326e96051df");
-OapiRobotSendRequest request = new OapiRobotSendRequest();
-request.setMsgtype("text");
-OapiRobotSendRequest.Text text = new OapiRobotSendRequest.Text();
-text.setContent("测试文本消息");
-request.setText(text);
-OapiRobotSendRequest.At at = new OapiRobotSendRequest.At();
-
-
